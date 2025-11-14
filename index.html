@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero" id="top">
+        <nav class="nav">
+          <div class="logo">Val Nerie O.</div>
+          <button class="nav-toggle" aria-label="Open navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hero-content">
+          <div class="hero-inner">
+            <div class="hero-text reveal">
+              <p class="eyebrow">Frontend Student Developer</p>
+              <h1>Hi, I&apos;m Val Nerie.</h1>
+              <p class="lead">
+                I am a student who likes building simple and clean websites using HTML, CSS and
+                JavaScript. I practice by making small projects and trying new ideas.
+              </p>
+              <div class="hero-actions">
+                <a class="btn primary" href="#projects">See My Projects</a>
+                <a class="btn ghost" href="#contact">Contact Me</a>
+              </div>
+            </div>
+            <div class="hero-image reveal">
+              <div class="profile-circle">
+               <img src="images/val.jpg.jpg" alt="Photo of Val Nerie" class="profile-photo" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="section about" id="about">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About Me</p>
+            <h2>I&apos;m Val Nerie, a frontend student.</h2>
+          </div>
+          <div class="about-grid">
+            <p>
+              I&apos;m an IT/CS student who enjoys creating websites and learning new frontend skills.
+              I practice HTML, CSS, JavaScript and PHP by building small projects.
+            </p>
+            <ul class="about-list">
+              <li>Current project: Scholarship Record Management System with SMS notification</li>
+              <li>Interested in frontend development and simple UI design</li>
+              <li>Learning by doing and improving my code step by step</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section projects" id="projects">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Projects</p>
+            <h2>Small projects I built while learning.</h2>
+          </div>
+          <div class="project-grid">
+            <article class="reveal">
+              <div class="project-meta">
+                <span>Web App</span>
+                <strong>Scholarship Record Management System</strong>
+              </div>
+              <p>
+                A simple system to save scholarship records and send SMS notifications to students
+                about their status and reminders.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>PHP</span>
+                <span>MySQL</span>
+              </div>
+            </article>
+            <article class="reveal">
+              <div class="project-meta">
+                <span>Personal Project</span>
+                <strong>Responsive Portfolio Website</strong>
+              </div>
+              <p>
+                A personal portfolio (this website) to show my skills and projects using only HTML,
+                CSS and JavaScript.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </article>
+            <article class="reveal">
+              <div class="project-meta">
+                <span>Practice</span>
+                <strong>Mini JavaScript Quiz App</strong>
+              </div>
+              <p>
+                A small quiz app to practice DOM manipulation, events and basic JavaScript logic.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section skills" id="skills">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Skills</p>
+            <h2>What I use to build websites.</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="reveal">
+              <h3>Frontend</h3>
+              <p>HTML, CSS (Flexbox, Grid), basic JavaScript (DOM, events), responsive layouts.</p>
+            </article>
+            <article class="reveal">
+              <h3>Backend &amp; Database</h3>
+              <p>PHP basics, MySQL, simple CRUD pages for saving and updating data.</p>
+            </article>
+            <article class="reveal">
+              <h3>Tools</h3>
+              <p>VS Code, Git (basic), Chrome DevTools, simple designs in Figma or Canva.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section contact" id="contact">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Let&apos;s work or study together.</h2>
+          </div>
+          <p>
+            If you want to talk about a project, homework, or internship, feel free to send me an
+            email.
+          </p>
+          <a class="btn primary" href="mailto:your-email@gmail.com">espeletavalnerie519@gmail.com</a>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2025 Val Nerie. Built with HTML, CSS and JavaScript.</p>
+        <a href="#top" class="back-to-top">Back to top</a>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
